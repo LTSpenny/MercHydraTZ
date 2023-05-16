@@ -1,0 +1,40 @@
+#timeout error when meshing was fixed with following info.
+#Changed TRSYNC_TIMEOUT value in “/home/pi/klipper/klippy/mcu.py” file from 0.025 to 0.050, i.e. was “TRSYNC_TIMEOUT = 0.025”, and became “TRSYNC_TIMEOUT = 0.050”, 
+#and the error “Communication timeout during homing probe” disappeared
+#obtained at: https://klipper.discourse.group/t/canbus-communication-timeout-while-homing-z/3741/2
+
+# The Following Items can be found in the respective .cfg
+
+################################################
+######       MAINTENANCE MACROS           ######
+################################################
+# Usage:
+#       Drop in appropriate category, any macros that help with maintenance!
+#                  Sections                    #
+#1.- Bot
+#2.- Positions
+#3.- Input Shaper Calibration
+#4.- Belt Shaper Calibration
+#5.- Pressure Advance Calibration and Tune
+#6.- Pressure Advance Variables
+
+################################################
+######              KAMP                  ######
+################################################
+# Usage:
+#       Drop in appropriate category, any macros that has to do with KAMP
+#                  Sections                    #
+#1.- KAMP - Main Install
+#2.- Adaptive Purging A.- Voron Purge/ B.- Line Purge
+
+################################################
+######            HOMING                  ######
+################################################
+# Usage:
+#       Drop in appropriate category, any macros that help with Homing or Bed Tilt!
+#                  Sections                    #
+#1.- Sensorless Homing X and Y
+#2.- Homing Override
+#3.- Conditional Homing
+#4.- Z Tilt
+
