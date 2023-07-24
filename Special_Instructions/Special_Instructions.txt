@@ -1,0 +1,1 @@
+# To Update Klipper run bash mcu_timing.sh update in SSH
